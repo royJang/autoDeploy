@@ -1,0 +1,22 @@
+{
+	"noah" : {
+	},
+	"noah-en" : {
+	},
+	"noah-backend" : {
+	},
+	"cad-online" : {
+		"dependencies" : [
+			"brew", 
+			"git", 
+			"nginx"
+		],
+		"hosts" : [
+			"127.0.0.1 cad.com"
+		],
+		"repository" : "http://git.3dker.com/cad/cad_online.git"
+	},
+	"mobile" : {
+
+	}
+}

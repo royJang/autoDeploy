@@ -1,0 +1,31 @@
+{
+  "name": "groot",
+  "version": "0.1.0",
+  "description": "3dker env auto deploy util",
+  "main": "./bin/groot.js",
+  "bin": {
+    "groot" : "./bin/groot.js"
+  },
+  "scripts": {
+    "start": "node ./bin/groot",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royJang/autoDeploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "util"
+  ],
+  "author": "roy",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/royJang/autoDeploy/issues"
+  },
+  "homepage": "https://github.com/royJang/autoDeploy#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "shelljs": "^0.7.0"
+  }
+}
